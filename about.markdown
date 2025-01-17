@@ -1,18 +1,21 @@
 ---
 layout: page
-title: About
+title: 我的職業生涯
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+曾在中和的 HMI 設計製造商任職，負責 HMI 與 PLC 之間的通訊協議解析。解析完成後，再將協議製作成 HMI 的通訊驅動程式，使公司所生產的 HMI 能夠操控各大廠牌（例如三菱、西門子）的 PLC 或變頻器。工作中，我主要使用 C/C++ 語言，經常接觸到的線路介面包含 RS-232/485，甚至 TCP/IP，並曾解析過像 CANbus、Modbus 這類公開協議。工作中時常需要自行焊接 RS-232 接頭，也會使用孕龍科技的邏輯分析儀，將探棒搭在通訊線路上，以進行協議解析。
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+退伍後，就讀二專電子工程系並順利畢業。畢業專題是利用 8051 開發 RS-232 並列阜加密鎖（約西元 2000 年左右流行的商品）。工作幾年後，再度以夜四技聯招全榜第二名的成績考進亞東技術學院。在補習期間，相當投入於基本電學、電子學等專業科目，對電子訊號、週期頻率等知識都相當熟悉。
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+上述經歷是在 35 歲以前，關於電子工程領域的工作與學習背景。
 
+在 35 歲以後，擔任 iOS 工程師。當時 App 開發還屬新興領域，公司尚未有完整的設計流程，因此我會先以紙筆（或簡單軟體，現今則多用 Figma）繪製 Wireframe，交給公司負責包裝設計的設計師進行視覺風格設計，接著再將設計稿及 Icon 等素材整合到 App 裡。除了開發本身，也負責整個上架與營運流程，並定期向老闆回報進度。當時所完成的 App 大多需要透過手機的藍牙 4.0（BLE）與公司的穿戴式裝置進行互動；同時，也會製作工程測試用的 App，供韌體工程師驗證研發中的軟硬體設備是否正常運作。這些經驗大約是在 40 歲以前所累積的 App 開發背景。
 
-[jekyll-organization]: https://github.com/jekyll
+近幾年，開始學習並投入 Web Full Stack 開發，主要使用 Ruby on Rails。曾有大量串接第三方 API 的經驗，包括藍星金流 API，以及新竹貨運的貨態查詢 API 等。只要有 API 技術文件，我都能夠讀懂並完成串接。
+
+在 Infrastructure 方面，有部署 EC2（透過 Capistrano）設定 VPC、S3，以及進行 IAM 權限管理與調校 Docker 容器化，Jenkins pipeline CI/CD 的實務經驗。
+
+目前我是一位 Ruby on Rails 全端工程師，我擅長在合理的成本與時間內，解決開發過程中從後端到前端、從 SQL 到雲服務等各個層面的問題；能夠在短時間內開發中小型網站、整合各種第三方 API，也能運用 Vue.js 等前端框架完成整合式專案。
+
+回顧職涯，從早期電子產業、iOS App 開發到近年的 Web 全端工程，多元的背景培養了我在技術調研與需求理解上的彈性，能夠靈活整合軟硬體層面需求。對於任何技術挑戰或客製化需求，都樂於快速嘗試並提供可行的建議。
