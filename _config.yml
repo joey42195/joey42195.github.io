@@ -21,11 +21,11 @@
 title: Joey's Blog
 email: joey42195@icloud.com
 description: >- # this means to ignore newlines until "baseurl:"
-  嗨，我是 Joey！ Ｗeb全端工程師，擅長 Rails 與前端開發，喜歡把複雜的問題轉化為簡潔的解決方案。
-  透過部落格分享開發心得與職場經驗，期待與更多同好交流、合作，一起拓展程式與創意的無限可能！
+  嗨，我是 Joey，一位 Ruby on Rails 工程師。這個部落格是我碎碎念的地方，也許發表一些個人經驗，或是工作的一些筆記。
+  有些文章的想法可能相當主觀，那些都是一部分真實的我，但也「只是」一部分真實的我，如果與您的想法有所不同，望能海涵，也歡迎一起交流。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  joey42195
+# github_username:  joey42195
 
 # Build settings
 theme: minima
