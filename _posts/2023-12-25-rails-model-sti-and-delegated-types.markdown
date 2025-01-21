@@ -7,7 +7,7 @@ categories: Rails
 
 由於我學習的第一個物件導向(OOP)語言是 C++，大家都知道，在 OOP 領域，多型（Polymorphism）是很基礎且重要的觀念（本文就不多做解釋）。但是在 Rails 中，Polymorphism 這個名詞，指的是資料庫表格關係中的其中一種形式 Polymorphic Associations，而對於 Rails Model 在 Ruby 這個 OOP 語言層面上的多型，卻是 Rails ORM 的 STI 與 Delegated Type。這也導致在與同事討論 OOP 多型時，常常一開始彼此認知就有差異。
 
-筆者在工作經歷中，鮮少見到有人真正的在 Rails 中對 ORM 進行抽象化的設計，這可能會導致，其實是可以用一套 CRUD 邏輯就能在某個功能層面操作應付數種 model，但是卻硬生生要重複寫兩三套一樣的 Controller，只因為 model name 不一樣。
+筆者在工作經歷中，較少見到有人真正的在 Rails 中對 ORM 進行抽象化的設計，這可能會導致，其實是可以用一套 CRUD 邏輯就能在某個功能層面操作應付數種 model，但是卻硬生生要重複寫兩三套一樣的 Controller，只因為 model name 不一樣。
 
 STI 與 Delegated Type 同樣都能達到 Rails model 的抽象化，兩者的差別在於，STI 讓每個 model 都共用同一個 table，而 Delegated Type 則是每個 model 擁有各自的 table。
 
