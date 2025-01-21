@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 我的職業生涯
+title: 關於我
 permalink: /about/
 ---
 
